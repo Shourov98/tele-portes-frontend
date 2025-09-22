@@ -68,12 +68,12 @@ const OTPVerification: React.FC = () => {
     <div className="min-h-screen bg-white relative overflow-hidden">
       {/* Top decorative pattern */}
      <div className="fixed top-0 left-0 w-full h-[118px] z-0">
-      <Pattern />
+      <Pattern opacities="0.1"/>
     </div>
 
     {/* Bottom decorative pattern */}
     <div className="fixed bottom-0 left-0 w-full h-[118px] z-0">
-      <Pattern />
+      <Pattern opacities="0.1"/>
     </div>
 
       {/* Main content */}

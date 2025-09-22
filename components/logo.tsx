@@ -4,7 +4,7 @@ const Logo = () => {
   return (
     <div>
       
-    <svg width="500" height="96" viewBox="0 0 500 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg width="500" height="50" viewBox="0 0 500 96" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clipPath="url(#clip0_2015_1173)">
 <mask id="mask0_2015_1173" style={{ maskType: 'luminance' }} maskUnits="userSpaceOnUse" x="0" y="0" width="500" height="92">
 <path d="M500 0H0V92H500V0Z" fill="white"/>

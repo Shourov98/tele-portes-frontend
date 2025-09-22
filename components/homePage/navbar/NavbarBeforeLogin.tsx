@@ -27,10 +27,10 @@ const Navbar: React.FC = () => {
 
   return (
     <div className="absolute top-10 left-1/2 transform -translate-x-1/2 w-[1440px] h-[116px] lg:w-full">
-      <nav className="flex justify-between items-center px-16 py-8 gap-[429px] w-full h-full bg-yellow-50">
+      <nav className="flex justify-between items-center px-16 py-8 gap-[429px] w-full h-full bg-[#FFFAE6]">
         
         {/* Logo */}
-        <div className="flex-none w-[264px] h-[50px] flex items-center">
+        <div className="flex-none w-[264px] h-[50px] flex items-center ">
           <div className="text-center">
             <Logo/>
           </div>

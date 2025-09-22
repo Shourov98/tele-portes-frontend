@@ -45,12 +45,12 @@ const ForgotPasswordPage: NextPage = () => {
     <div className="min-h-screen bg-white relative">
       {/* Top decorative pattern - Fixed positioning */}
       <div className="fixed top-0 left-0 w-full h-[119px] z-0">
-        <Pattern/>
+        <Pattern opacities="0.1"/>
       </div>
 
       {/* Bottom decorative pattern - Fixed positioning */}
       <div className="fixed bottom-0 left-0 w-full h-[119px] z-0">
-       <Pattern/>
+       <Pattern opacities="0.1"/>
       </div>
 
       {/* Main content - Positioned to avoid overlap with patterns */}
