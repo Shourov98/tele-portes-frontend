@@ -20,8 +20,8 @@ const Navbar: React.FC = () => {
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   return (
-    <div className="p-0 m-0 md:absolute top-10 md:left-1/2 md:transform md:-translate-x-1/2  md:h-[116px] w-full">
-      <nav className="flex justify-between items-center px-4 md:px-16 py-4 md:py-8 w-full h-full bg-[#FFFAE6]">
+    <div className="p-0 m-0 md:absolute top-10 md:left-1/2 md:transform md:-translate-x-1/2  md:h-[116px] w-full bg-[#FFFAE6]">
+      <nav className="flex justify-between m-0 p-0 items-center px-4 md:px-16 py-4 md:py-8 w-full h-full bg-[#FFFAE6]">
         
         {/* Logo */}
         <div className="px-0 h-[40px] md:h-[50px] flex items-center">
@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Desktop + Medium Menu */}
-        <div className="hidden md:flex items-center gap-16 lg:gap-18 w-auto h-[256px]">
+        <div className="hidden md:flex items-center gap-16 lg:gap-18 w-auto ">
           <button 
             onClick={handleHomeClick}
             className="font-medium text-base text-gray-900 hover:text-yellow-600 transition-colors"

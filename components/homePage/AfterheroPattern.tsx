@@ -8,7 +8,7 @@ import Logo from "../logo";
 
 const AfterHeroPattern: React.FC = () => {
   return (
-    <div className="w-full absolute top-[1024px] bg-[#FFCF00]">
+    <div className="w-full  bg-[#FFCF00]">
     
 
   <motion.div
