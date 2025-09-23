@@ -6,17 +6,17 @@ import WhatsAppButton from "@/components/homePage/navbar/topNav";
 
 const Home = () => {
   return (
-    <div>
+    <div className="">
       <WhatsAppButton number="689296744" />
-      <Navbar/>
-      <TransportHero />
-      <div className="bg-[#FFCF00]"><AfterHeroPattern /></div>
-      
-    
-
-
+      <div><Navbar /></div>
+      <div className="w-full "><TransportHero /></div>
+      <div className="bg-[#FFCF00]">
+        <AfterHeroPattern />
+      </div>
     </div>
   );
 };
 
 export default Home;
+
+
