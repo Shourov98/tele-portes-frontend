@@ -1,6 +1,12 @@
-import { Facebook, Instagram, Youtube, MapPin, Phone, Mail } from 'lucide-react';
+import {  Youtube, MapPin, Phone, Mail } from 'lucide-react';
 import FooterLogo from "@/public/Tele-Portes-Logo.png"
 import Image from 'next/image';
+import facebook from "@/public/Facebook (1).png"
+import instagram from "@/public/instagram.png"
+import youtube from "@/public/youtube.svg"
+import twitter from "@/public/twitter.svg"
+import whatsapp from "@/public/Whatsapp.svg"
+import tiktok from "@/public/TikTok.svg"
 
 export default function Footer() {
   return (
@@ -64,7 +70,7 @@ export default function Footer() {
                 {/* Phone */}
                 <div className="flex items-center gap-3">
                   <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center flex-shrink-0">
-                    <Phone className="w-4 h-4 text-white" />
+                    <Image src={whatsapp}alt="Whatsapp" />
                   </div>
                   <a href="tel:689296744" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
                     689296744
@@ -82,24 +88,26 @@ export default function Footer() {
                 {/* Social Media */}
                 <div className="flex items-center gap-6">
                   <a href="#" className="hover:opacity-80 transition-opacity">
-                    <div className="w-6 h-6 bg-blue-600 rounded flex items-center justify-center">
-                      <Facebook className="w-4 h-4 text-white" />
+                    <div className="w-6 h-6  rounded flex items-center justify-center">
+                        <Image src={facebook}alt="Tele-Portes Logo" />
+                      {/* <Facebook className="w-4 h-4 text-white" /> */}
                     </div>
                   </a>
                   <a href="#" className="hover:opacity-80 transition-opacity">
-                    <div className="w-6 h-6 bg-gradient-to-br from-yellow-400 via-red-500 to-purple-600 rounded flex items-center justify-center">
-                      <Instagram className="w-4 h-4 text-white" />
+                    <div className="w-6 h-6 rounded flex items-center justify-center">
+                         <Image src={instagram}alt="Instagram" />
+                      {/* <Instagram className="w-4 h-4 text-white" /> */}
                     </div>
                   </a>
                   <a href="#" className="hover:opacity-80 transition-opacity">
-                    <div className="w-6 h-6 bg-red-600 rounded flex items-center justify-center">
-                      <Youtube className="w-4 h-4 text-white" />
+                    <div className="w-6 h-6  rounded flex items-center justify-center">
+                      <Image src={youtube}alt="Youtube" />
                     </div>
                   </a>
                   <a href="#" className="hover:opacity-80 transition-opacity">
                     <div className="w-6 h-6 bg-black rounded flex items-center justify-center">
-                      <div className="w-4 h-4 bg-white rounded-sm flex items-center justify-center">
-                        <span className="text-black text-xs font-bold">tt</span>
+                      <div className="w-4 h-4 bg-white  rounded-sm flex items-center justify-center">
+                        <Image src={tiktok}alt="Tiktok" />
                       </div>
                     </div>
                   </a>
