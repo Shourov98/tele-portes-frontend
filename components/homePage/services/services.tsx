@@ -6,7 +6,7 @@ const services = [
   {
     icon: (
       <Image
-        src="/service/truck-delivery.svg"
+        src="/truck.svg"
         alt="Truck"
         width={60}
         height={60}
@@ -16,10 +16,10 @@ const services = [
     description: "Professional moving services tailored to your needs",
     price: "250€",
     button: "Get a Quote",
-    link: "/services/moving",
+    link: "/delivery.svg",
   },
   {
-    icon: <Image src="/service/sofa.svg" alt="Sofa" width={60} height={60} />,
+    icon: <Image src="/sofa-01.svg" alt="Sofa" width={60} height={60} />,
     title: "Furniture & Home Appliances",
     description: "Move your personal belongings with us",
     price: "65€",
@@ -28,7 +28,7 @@ const services = [
   },
   {
     icon: (
-      <Image src="/service/package.svg" alt="Storage" width={60} height={60} />
+      <Image src="/package.svg" alt="Storage" width={60} height={60} />
     ),
     title: "Storage Solutions",
     description: "Secure storage options, flexible terms",
