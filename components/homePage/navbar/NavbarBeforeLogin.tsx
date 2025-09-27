@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
   const [isSignIn,setIsSignIn]= useState(true)
   const router = useRouter();
 
-  const handleHomeClick = () => router.push("/");
+  const handleHomeClick = () => router.push("/home");
   const handleSignUpClick = () => router.push("/signup");
   const handleLoginClick = () => router.push("/signin");
   const toggleServicesDropdown = () => {
@@ -87,19 +87,19 @@ const Navbar: React.FC = () => {
               <div className="absolute top-full left-0 mt-2 w-[291px] bg-[#FFFAE6] rounded-lg shadow-lg border border-gray-300 z-50">
                 <div className="flex flex-col">
                   <a
-                    href="#"
+                    href="/moving-service"
                     className="px-4 py-3 border-b border-[#AEAEAE] hover:bg-yellow-50 hover:text-yellow-600"
                   >
                     Moving Services
                   </a>
                   <a
-                    href="#"
+                    href="/furniture-services"
                     className="px-4 py-3 border-b border-[#AEAEAE] hover:bg-yellow-50 hover:text-yellow-600"
                   >
                     Furniture & Home Appliance
                   </a>
                   <a
-                    href="#"
+                    href="storage-services"
                     className="px-4 py-3 rounded-b-lg hover:bg-yellow-50 hover:text-yellow-600"
                   >
                     Storage Solutions
@@ -180,7 +180,7 @@ const Navbar: React.FC = () => {
                     <HugeiconsIcon icon={Notification01Icon} /> Notifications
                   </a>
                   <a
-                    href="#"
+                    href="/home"
                     className="px-4  py-3 rounded-b-lg hover:bg-yellow-50 hover:text-yellow-600"
                   >
                     <span className="flex gap-2">

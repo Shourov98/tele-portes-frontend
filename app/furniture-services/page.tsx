@@ -6,7 +6,7 @@ import Navbar from "@/components/homePage/navbar/NavbarBeforeLogin"
 import WhatsAppButton from "@/components/homePage/navbar/topNav"
 import ServiceCard from "@/components/service/ServiceHero"
 
-const Moving_Service = () => {
+const Furniture_Service = () => {
   return (
     <div>
     <WhatsAppButton number="689296744"/>
@@ -15,7 +15,7 @@ const Moving_Service = () => {
 
 <ServiceCard
       image="/movingService.svg"
-      title="Our Moving Services"
+      title="Our Furniture & Home Appliances Services"
       description={`We make your move simple and stress-free. Our moving service covers all your household items — and if you need more, you can easily add them through the “Explore more items here” option. If something isn’t listed, you can enter custom items too.
 
 We also offer extra services to make your move even smoother, such as:
@@ -35,4 +35,4 @@ All payments are made securely in advance. If your plans change, you can request
   )
 }
 
-export default Moving_Service
+export default Furniture_Service

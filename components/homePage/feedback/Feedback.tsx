@@ -11,6 +11,8 @@ const feedbacks = Array.from({ length: 8 }, (_, i) => ({
   location: "Location",
   avatar: "/Ellipse 125.svg", // replace with your avatar path
 }));
+
+
  
 export default function FeedbackSection() {
   const [showAll, setShowAll] = useState(false);
@@ -36,6 +38,8 @@ export default function FeedbackSection() {
           />
         ))}
       </div>
+
+   
  
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:hidden gap-4 max-w-6xl mx-auto">
         {showAllFeedbacks.map((fb) => (

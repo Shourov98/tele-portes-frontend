@@ -33,7 +33,7 @@ export default function Footer() {
                 <h4 className="text-white font-semibold text-lg leading-6">
                   Quick Links
                 </h4>
-                <a href="#" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
+                <a href="/home" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
                   Home
                 </a>
               </div>
@@ -44,13 +44,13 @@ export default function Footer() {
                   Services
                 </h4>
                 <div className="flex flex-col gap-0">
-                  <a href="#" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
+                  <a href="/moving-service" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
                     Moving Services
                   </a>
-                  <a href="#" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
+                  <a href="/furniture-services" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
                     Furniture & Home Appliances
                   </a>
-                  <a href="#" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
+                  <a href="/storage-services" className="text-white font-normal text-base leading-6 hover:text-gray-300 transition-colors">
                     Storage Solutions
                   </a>
                 </div>
